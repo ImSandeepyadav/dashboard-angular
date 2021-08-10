@@ -1,0 +1,36 @@
+<div>
+    <app-widget-area></app-widget-area>
+</div>
+<br>
+<mat-divider></mat-divider>
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats-card">
+    <mat-card fxFlex="25">
+        <app-widget-card label="User" total="12K" percentage="50"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25"> 
+        <app-widget-card  label="User retention" total="10K" percentage="40"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card  label="User engagement" total="8K" percentage="30"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card  label="Referral" total="6K" percentage="20"></app-widget-card>
+    </mat-card>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<div  fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+    <div fxFlex="60">
+        <app-widget-table></app-widget-table>
+    </div>
+    <div fxFlex="60">
+        <app-widget-pie></app-widget-pie>
+    </div>
+</div>
